@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-heroku = "*"
+flask-cors = "*"
+beautifulsoup4 = "*"
+flask-sqlalchemy = "*"
+flask-marshmallow = "*"
+twint = {editable = true, git = "https://github.com/twintproject/twint.git"}
+requests-oauthlib = "*"
+selenium = "*"
+webdriver-manager = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
